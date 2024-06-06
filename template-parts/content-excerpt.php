@@ -4,10 +4,9 @@
  *
  * @package School_Site_Theme_New
  */
-
 ?>
 
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+<article id="post-<?php the_ID(); ?>" <?php post_class('aos-init aos-animate'); ?> data-aos="fade-up">
     <header class="entry-header">
         <?php
         if ( is_singular() ) :
@@ -35,3 +34,7 @@
         <?php school_site_theme_new_entry_footer(); ?>
     </footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
+
+<script>
+    AOS.init();
+</script>

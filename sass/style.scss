@@ -100,3 +100,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 /* Alignments
 --------------------------------------------- */
 @import "utilities/alignments";
+
+/*--------------------------------------------------------------
+# Custom Header
+--------------------------------------------------------------*/
+
+@import "header"; // Import your header styles
+
+/*--------------------------------------------------------------
+# Additional Custom Styles
+--------------------------------------------------------------*/
+/* Add any additional custom styles here */
